@@ -3,6 +3,7 @@ nav{
     display: flex;
     justify-content: space-around;
     padding-top: 0.6rem;
+    background-color:  #a8a8f7;
 }
 .image {
     border-radius: 1rem;
