@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <AppBar>
       <Toolbar>
-        <Typography variant='h4'> Navbar </Typography>
+        <Typography variant='h4'> WeCare </Typography>
         <ListItem>
           <ListItemButton>
             <ListItemText primary='login'>

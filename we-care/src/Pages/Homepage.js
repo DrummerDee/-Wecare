@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/Homepage.css';
 import { Link } from 'react-router-dom';
 
-export const Homepage = () => {
+const Homepage = () => {
   return (
     <>
       <section className='homebody'>
@@ -21,3 +21,4 @@ export const Homepage = () => {
     </>
   )
 }
+export default Homepage;
