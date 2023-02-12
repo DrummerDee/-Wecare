@@ -3,7 +3,8 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import { makeStyles } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core';
+import Search from './Search';
 // import { Link } from "react-router-dom";
 // import Logo from '../Images/Logo.png';
 // import {FaSearch} from 'react-icons/fa';
@@ -21,6 +22,7 @@ const Navbar = () => {
               Sign In
             </ListItemText>
           </ListItemButton>
+          <Search/>
         </ListItem>
       </Toolbar>
     </AppBar>
