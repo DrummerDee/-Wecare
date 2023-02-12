@@ -11,9 +11,10 @@ const Search = () => (
         variant="outlined"
         placeholder="Search..."
         size="small"
+        style={{ fill: "white" }}
       />
       <IconButton type="submit" aria-label="search">
-        <SearchIcon style={{ fill: "blue" }} />
+        <SearchIcon style={{ fill: "white" }} />
       </IconButton>
     </form>
   );

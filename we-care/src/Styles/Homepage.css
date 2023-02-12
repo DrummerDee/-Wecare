@@ -2,6 +2,7 @@
     overflow: hidden;
 }
 .sub_nav{
+    border-top: 0.2rem solid black;
     border-bottom: 0.2rem solid black;
     background-color: whitesmoke;
     justify-content: center;
@@ -10,6 +11,10 @@
     height: 2rem;
     display: flex;
     font-size: 0.8rem;
+    margin-top: 4rem;
+    position: fixed;
+    width: 100%;
+
 }
 .background{
     background-image: url('../Images/elderlycouple.jpeg');
@@ -19,7 +24,7 @@
     height: 100vh; 
     overflow: hidden;
 }
-.background > div{
+.background > div {
     color: black;
     border: 0.2rem black solid;
     background-color: rgb(240, 240, 240);
@@ -29,7 +34,8 @@
     flex-direction: column;
     padding: 1rem 0.5rem;
     float: right;
-    margin: 4rem 10rem;
+    margin: 7.5rem 10rem;
+    border-radius: 1rem;
 }
 .background > div > a {
     color: black;
