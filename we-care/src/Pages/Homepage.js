@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Homepage.css";
 import Navbar from "../Components/Navbar";
 import { Link } from "react-router-dom";
+import Button from "@mui/material/Button";
 
 const Homepage = () => {
   return (
@@ -16,7 +17,30 @@ const Homepage = () => {
         <main className="background">
           <div className="text">
             <h2> Have a peace of mind when you know We Care. </h2>
-            <h3> Find your home care plan </h3>
+            <div className = 'buttns'>
+              <Button
+                style={{
+                  borderRadius: 22,
+                  backgroundColor: "#21b6ae",
+                  padding: "0.8rem 1rem",
+                  fontSize: "1rem",
+                }}
+                variant="contained"
+              >
+                Find your home care plan
+              </Button>
+              <Button
+                style={{
+                  borderRadius: 22,
+                  backgroundColor: "#21b6ae",
+                  padding: "0.8rem 1rem",
+                  fontSize: "1rem",
+                }}
+                variant="contained"
+              >
+                Health Insurance Options
+              </Button>
+            </div>
           </div>
         </main>
       </section>
