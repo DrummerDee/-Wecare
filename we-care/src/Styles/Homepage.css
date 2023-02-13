@@ -1,8 +1,9 @@
 .homebody{
-    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 .sub_nav{
-    border-top: 0.2rem solid black;
+    border-top: 0.1rem solid black;
     border-bottom: 0.2rem solid black;
     background-color: whitesmoke;
     justify-content: center;
@@ -11,7 +12,7 @@
     height: 2rem;
     display: flex;
     font-size: 0.8rem;
-    margin-top: 4rem;
+    margin-top: 0.1rem;
     position: fixed;
     width: 100%;
 
@@ -20,22 +21,30 @@
     background-image: url('../Images/elderlycouple.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
     height: 100vh; 
-    overflow: hidden;
 }
-.background > div {
-    color: black;
-    border: 0.2rem black solid;
-    background-color: rgb(240, 240, 240);
-    height: 20rem;
-    width:20rem;
+.text {
+    color: white;
+    background-color: rgba(53, 53, 53, 0.3);
+    height: 16rem;
+    width:25rem;
     display: flex;
     flex-direction: column;
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.7rem;
     float: right;
-    margin: 7.5rem 10rem;
-    border-radius: 1rem;
+    margin: 8rem 10rem;
+    border-radius: 0.6rem;
+    
+}
+.text > h2 {
+    text-align: center;
+}
+.buttns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 0.5rem;
 }
 .background > div > a {
     color: black;
