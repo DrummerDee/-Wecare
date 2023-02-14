@@ -1,8 +1,9 @@
 import React from "react";
 import "../Styles/Homepage.css";
 import Navbar from "../Components/Navbar";
-import { Link } from "react-router-dom";
+import Tab from '../Components/Tab';
 import Button from "@mui/material/Button";
+import Link from "@mui/material/Link";
 
 const Homepage = () => {
   return (
@@ -17,7 +18,7 @@ const Homepage = () => {
         <main className="background">
           <div className="text">
             <h2> Have a peace of mind when you know We Care. </h2>
-            <div className = 'buttns'>
+            <div className='buttns'>
               <Button
                 style={{
                   borderRadius: 22,
@@ -42,6 +43,9 @@ const Homepage = () => {
               </Button>
             </div>
           </div>
+          <Tab
+            href='/tab'
+          />
         </main>
       </section>
     </>

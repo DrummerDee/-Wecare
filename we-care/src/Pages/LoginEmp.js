@@ -6,4 +6,4 @@ const LoginEmp = () => {
   )
 }
 
-export default LoginEmp
+export default LoginEmp;
