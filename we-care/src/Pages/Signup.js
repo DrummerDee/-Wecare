@@ -1,9 +1,12 @@
 import React from 'react';
-import Tab from '../Components/Tab';
+import NavbarAlt from '../Components/NavbarAlt'
+
 
 const Signup = () => {
+
+
   return (
-    <Tab/>
+    <NavbarAlt/>
   )
 }
 
