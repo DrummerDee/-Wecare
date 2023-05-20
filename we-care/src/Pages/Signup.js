@@ -6,7 +6,7 @@ const Signup = () => {
 
 
   return (
-      <></>
+      <>Sign up </>
   )
 }
 
