@@ -17,12 +17,28 @@ const LoginMem = () => {
         direction = 'column' 
         >
           <Grid item xs={8} spacing ={6}>
-            <TextField fullWidth id='standard-basic' label='email' variant='standard'/>
+            <TextField 
+            type = 'email'
+            fullWidth 
+            // id='standard-basic' 
+            label='Email' 
+            placeholder = 'Enter Your Email'
+            variant='outlined'
+            style = {{backgroundColor: 'white'}}
+            />
   </Grid>
   <Grid item xs={4}>
-<TextField id = 'standard-basic' label = 'password' variant = 'standard'/>
+<TextField 
+  type = 'password'
+  fullWidth
+  // id = 'standard-basic' 
+  label = 'Password' 
+  placeholder = 'Enter Your Password'
+  variant = 'outlined'
+  style = {{backgroundColor: 'white'}}
+  />
   </Grid>
-  <Grid item xs={4}>
+  <Grid item xs={4} justifyContent='center'>
     <Button 
       onClick = {() => alert('I have been clicked')} 
       variant='contained' 
